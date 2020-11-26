@@ -1,0 +1,59 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+table {
+   border-collapse: none;
+   line-height: 30px;
+   
+   vertical-align: middle;
+}
+
+.r>tr,td{
+    text-align: center;
+}
+
+#tbody {
+   margin-left: 30px;
+   vertical-align: middle;
+}
+
+#tbody th{
+   width: 80px;
+}
+
+.content {
+   width: match_parent;
+   height: 500px;
+/*    border: 1px solid black; */
+   background:white;
+}
+
+.reply {
+   width: match_parent;
+   margin-top: 20px;
+   min-width: 700px;
+   max-width: 700px;
+   min-height: 60px;
+   max-height: 60px;
+}
+
+.detail {
+   flex-grow:1;
+/*    border: solid 1px black; */
+}
+
+.test {
+   width: match_parent;
+   justify-items: stretch;
+   margin-top: 50px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.reg-reply {
+   font-family: 'Hanna', sans-serif;
+   font-weight: 400px;
+   font-size: 15px;
+}
+a{
+   color:black;
+}

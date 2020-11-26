@@ -1,0 +1,84 @@
+
+/* ------------Main¿« center----------------- */
+#main .center{
+    width: 1010px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+
+
+/* --------detail carPhoto------------------- */
+
+#main .center .carPhoto{
+    width: 700px;
+    height: 570px;
+    border-right: 1px solid black;
+}
+
+#main .center .carPhoto .bigPicture{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .center .carPhoto .smallPictures{
+    width: 700px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main .center .carPhoto .bigPicture img{
+/*     width: 600px; */
+}
+
+#main .center .carPhoto .smallPictures img{
+   width: 110px;
+   height: 70px;
+}
+
+/* --------detail carDescription------------------- */
+
+#main .center .carDescription{
+   margin-left: 20px;
+    width: 400px;
+    height: 570px;
+    text-align: left;
+    text-overflow: ellipsis;
+    line-height: 20px;
+}
+
+#main .center ol li{
+    list-style: none;
+}
+
+#main .center .carDescription .cd1{
+    height: 150px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#main .center .carDescription .firstCol{
+    width: 100px;
+}
+
+#main .center .carDescription .cd2{
+    height: 400px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#main .center .carDescription .cd2 img{
+    width: 42px;
+    height: 42px;
+}
+#footer {
+   margin-top: 100px;
+}

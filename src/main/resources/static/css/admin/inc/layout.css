@@ -1,0 +1,17 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+#body {
+	min-height: 750px;
+	width: 1400px;
+	margin: auto;
+	font-family: 'Hanna', sans-serif;
+	font-weight: 400px;
+	font-size: 15px;
+}
+/* -----------body�쓽 main------------- */
+#main {
+	/* height: 75%; */
+	width: 100%;
+	min-height: 600px;
+	
+}

@@ -1,0 +1,72 @@
+#main .asideLeft{
+    min-height: 600px;
+    width: 250px;   
+    /* background: yellow; */
+}
+#center{
+    flex-grow:1;
+    min-height: 850px;
+    width: 1000px;
+/*     border: 1px solid black; */
+}
+/*--------------------aside--------------------*/
+#menu a {
+    display: block;
+}
+.M01 {
+    width: 250px;
+   background: none;
+   height:400px;
+}
+.M01>li,.M02>li{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: none;
+    text-align: center;
+    line-height: 50px;
+}
+.M01>li:hover .M02 {
+    left: 165px;
+}
+.M01>li a:hover {
+    display: block;
+    background: #979797;
+}
+.M02{
+    width: 200px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left:-999px;
+}
+.M02 li{
+    border:solid 1px black;
+}
+.M02>li a:hover {
+    display: block;
+    background: #979797;
+}
+/*--------------------board-------------------*/
+#test{
+    padding-top: 100px;
+}
+#al {
+    font-family: 'Yeon Sung', cursive;
+    font-size:30px;
+    font-weight: 900;
+    line-height: 40px;
+    width: 370px;
+    height: 200px;
+/*     border: solid 1px black; */
+    text-align: center;
+    padding: 50px;
+    border-radius: 50%;
+/*     box-shadow: 10px 10px 30px white inset; */
+    overflow: hidden;
+/*     background: linear-gradient(to bottom, yellow,red); */
+    margin:auto;
+}
+.asideRight{
+   width: 250px;
+}

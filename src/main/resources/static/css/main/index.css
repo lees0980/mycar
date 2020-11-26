@@ -1,0 +1,44 @@
+/* ------------Main�쓽 center----------------- */
+#main .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow:1;
+    height: 850px;
+/*     border: 1px solid; */
+    /* background-color: green; */
+}
+
+#main .center .column{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+
+}
+
+#main .center .menulist{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1100px;
+    height: 400px;
+}
+
+#main .center .column>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+#main .center .menulist>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+}

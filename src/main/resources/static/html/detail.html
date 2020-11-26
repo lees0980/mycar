@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="/src/main/resources/static/html/detail.css" type="text/css" rel="stylesheet">
+        <script src="/src/main/resources/static/html/detail.js"></script>
+    </head>
+    <body id="body">
+        <header id="header">
+            <section class="logo">
+            <div>
+                <a href="/main/index">logo </a>
+            </div>
+            </section>
+            <section class="headerBtn">
+            <ul>
+                <li><a href="/recommend/customize">내 차 추천</a></li>
+                <li><a href="/dictionary/main">자동차 알쓸신잡</a></li>
+                <li><a href="/community/main">커뮤니티</a></li>
+                <li><a href="/company/main">회사 소개</a></li>
+                <li><a href="">고객지원</a></li>
+            </ul>
+            </section>
+            <section class="login">
+            <div>
+                <s:authorize access="isAnonymous()">
+                    <a href="/member/signup">회원가입</a>
+                </s:authorize>
+            </div>
+            <br>
+            <div>
+                <s:authorize access="isAnonymous()">
+                    <a href="/member/login">로그인</a>
+                </s:authorize>                
+            </div>
+            </section>
+        </header>
+        
+        <main id="main">
+            <aside class="asideLeft">
+
+            </aside>            
+            <section class="center">
+                <section class="carPhoto">
+                    <div class="bigPicture">
+                        <div>
+                            <img class="bigPic" data-id="0" src="" alt="큰 사진">
+                        </div>
+                    </div>
+                    <div class="smallPictures">
+                        <div><img data-id="1" src="/src/main/resources/static/Image/qm61.png" alt="사진1"></div>
+                        <div><img data-id="2" src="/src/main/resources/static/Image/qm62.png" alt="사진2"></div>
+                        <div><img data-id="3" src="/src/main/resources/static/Image/qm63.png" alt="사진3"></div>
+                        <div><img data-id="4" src="/src/main/resources/static/Image/qm64.png" alt="사진4"></div>
+                        <div><img data-id="5" src="/src/main/resources/static/Image/qm65.png" alt="사진5"></div>
+                    </div>
+                </section>
+                <section class="carDescription">
+                    <ol class="cd1">
+                        <li class="id">고유번호 : ${n.id}</li>
+                        <li class="brand">제조사 : ${n.brand}</li>
+                        <li class="carType">차량 타입 : ${n.carType}</li>
+                        <li class="carSegment">차량 크기 : ${n.carSegment}</li>
+                        <li class="carName">모델명 : ${n.carName}</li>
+                    </ol>
+                    <ol class="cd2">
+                        <li>연료 타입 : ${n.fuelType}</li>
+                        <li>연비 : ${n.fuelEfficiency}</li>
+                        <li>연비 등급 : ${n.fuelEfficiencyGrade}</li>
+                        <li>최대 출력 : ${n.maxHp}</li>
+                        <li>최대 토크 : ${n.maxTorque}</li>
+                        <li>최대 승차 인원 : ${n.passangers}</li>
+                        <li>구동 방식 : ${n.mainWheel}</li>
+                        <li>풀옵션 가격 : ${n.maxPrice}</li>
+                    </ol>
+                </section>
+            </section>
+        </main>
+    </body>
+</html>

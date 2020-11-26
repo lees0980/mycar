@@ -1,0 +1,11 @@
+
+/* -----------------------Footer----------------------------- */
+#footer{
+    position: relative;
+/*     margin-bottom: 10px; */
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    background:#1A237E;
+/*     background:url("/Image/d.png")no-repeat center; */
+}

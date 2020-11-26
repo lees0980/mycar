@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="main.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/inc/asideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/main/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="recommend.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/inc/asideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/recommend/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="dictionary.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/dictionary/dicAsideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/dictionary/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="community.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/community/comAsideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/community/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="member.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/inc/asideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/member/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="company.*"
+		template="/WEB-INF/view/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/inc/asideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/company/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/inc/footer.jsp" />
+	</definition>
+	<definition name="admin.*"
+		template="/WEB-INF/view/admin/inc/layout.jsp">
+		<put-attribute name="css" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/view/admin/inc/header.jsp" />
+		<put-attribute name="asideLeft"
+			value="/WEB-INF/view/admin/inc/asideLeft.jsp" />
+		<put-attribute name="asideRight"
+			value="/WEB-INF/view/admin/inc/asideRight.jsp" />
+		<put-attribute name="main"
+			value="/WEB-INF/view/admin/{1}.jsp" />
+		<put-attribute name="footer"
+			value="/WEB-INF/view/admin/inc/footer.jsp" />
+	</definition>
+</tiles-definitions>

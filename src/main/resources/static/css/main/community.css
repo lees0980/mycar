@@ -1,0 +1,97 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+
+/* -----------------community main--------------------- */
+#center{
+	text-align: center;
+	flex-grow:1;
+    height: 850px;
+	margin-left:100px;
+	margin-right:100px;
+    justify-content:center;
+    vertical-align: middle;
+}
+
+#center a{
+   color:black;
+}
+.community1 {
+	display: flex;
+	align-items: center;
+	min-height: 200px;
+	justify-content:center;
+}
+
+.communitymenu {
+	border: 1px solid;
+	height: 100px;
+	width: 300px;
+	margin-left: 150px;
+	padding-top: 70px;
+	background: white;
+}
+.table>tbody>tr>td, .table>thead>tr>td, .table>thead>tr>th{
+     line-height: 30px;
+     white-space: nowrap;
+     overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+  
+}
+
+a{
+   color:black;
+}
+.c {
+	color: red
+}
+
+.orange {
+	color: red;
+}
+/*--------------------aside--------------------*/
+#menu a {
+    display: block;
+}
+
+.M01 {
+    width: 100%;
+   background: none;
+   height:400px;
+}
+.M01>li,.M02>li{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: none;
+    text-align: center;
+    line-height: 50px;
+}
+.M01>li:hover .M02 {
+    left: 165px;
+}
+.M01>li a:hover {
+    display: block;
+    background: #979797;
+}
+.M02{
+    width: 200px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left:-999px;
+}
+.M02 li{
+    border:solid 1px black;
+}
+.M02>li a:hover {
+    display: block;
+    background: #979797;
+}
+.btn-reg{
+   float:right;
+   margin-right:70px;
+   width:100px;
+}
+.btn-search:hover{
+   background:black;
+}

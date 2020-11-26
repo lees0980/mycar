@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* ====================메인페이지========================= */
+#header{
+    width: 100%;
+    height: 100px;
+    background: pink;
+    border:solid 1px black;
+}
+#section{
+    display:flex;
+}
+
+.asideLeft{
+    min-height:500px;
+    width:250px;
+    background: #979797;
+    line-height:50px;
+    text-align:center;
+}
+
+.asideRight{
+    min-height:500px;
+    width:250px;
+    background: #979797;
+}
+
+#main{
+    width: 900px;
+    min-height:500px;
+}
+
+#main h1{
+   margin: 10px;
+}
+#footer{
+    background: greenyellow;
+    height:200px;
+    border:solid 1px black;
+}
+/* ====================토크페이지========================= */
+.comForm{
+   width: 900px;
+    max-width: 100%;
+}
+.carTable{
+   width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    overflow-y: auto;
+}
+.comTable{
+   width: 100%;
+   margin-bottom: 20px;
+   align-items: center;
+   min-height: 50px;
+}
+
+.carTable>tbody>tr>td, .carTable>thead>tr>td, .carTable>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+.comTable>tbody>tr>td, .comTable>thead>tr>td, .comTable>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+.w109{
+   width: 109px;
+}
+.w137{
+   width: 137px;
+}
+.w293{
+   width: 293px;
+}
+.comForm input[type=submit]{
+   float: right;
+    margin-right: 30px;
+    width: 100px;
+}
+
+.submit{
+   display: flex;
+   float: right;
+}
+
+.comTable-form{
+   text-align: center;
+   margin-top: 30px;
+}
+
+.carTable-form{
+   text-align: center;
+   margin-top: 80px;
+   margin-bottom: 20px;
+}
+
+.indexer{
+   text-align: center;
+}

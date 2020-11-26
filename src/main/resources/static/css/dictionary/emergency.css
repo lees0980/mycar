@@ -1,0 +1,76 @@
+/* ------------Main   center----------------- */
+#main .center {
+  flex-grow:1;
+   height: 850px;
+   border: 1px solid red;
+}
+a{
+	color:black;
+}
+#main .center table tr td {
+   width: 50px;
+   height: 50px;
+   border: 1px solid orange;
+}
+
+/* -------------------------------------- */
+#main .center .images img.big {
+/*    position: relative;
+   left: 20px;
+   top: 20px; */
+    align-items: center;
+}
+
+/* -------------------------------------- */
+
+#main .center .images img.mid1 {
+   position: relative;
+   left: 40px;
+   top: 150px;
+}
+
+#main .center .images img.mid2 {
+   position: relative;
+   left: 120px;
+   top: 70px;
+}
+
+#main .center .images img.mid3 {
+   position: relative;
+   left: 160px;
+   top: -50px;
+}
+
+
+/* -------------------------------------- */
+
+#main .center .images img.small1 {
+   position: relative;
+   left: 20px;
+   top: 200px;
+}
+#main .center .images img.small2 {
+   position: relative;
+   left: 60px;
+   top: 200px;
+}
+#main .center .images img.small3 {
+   position: relative;
+   left: 160px;
+   top: 110px;
+}
+#main .center .images img.small4 {
+   position: relative;
+   left: 160px;
+   top: 50px;
+}
+#main .center .images img.small5 {
+   position: relative;
+   left: 220px;
+   top: -40px;
+}
+#main .center .images img.small6 {
+   position: relative;
+   left: 200px;
+   top: -120px;
+}
